@@ -1,0 +1,38 @@
+<testsuites id="" name="" tests="15" failures="0" skipped="0" errors="0" time="38.1519">
+<testsuite name="auth-guards.spec.js" timestamp="2026-04-26T12:08:56.930Z" hostname="chromium" tests="4" failures="0" skipped="0" time="6.913" errors="0">
+<testcase name="Unauthenticated access › root redirects to login when not signed in" classname="auth-guards.spec.js" time="2.42">
+</testcase>
+<testcase name="Unauthenticated access › login page shows heading and email field" classname="auth-guards.spec.js" time="1.651">
+</testcase>
+<testcase name="Unauthenticated access › register page is reachable" classname="auth-guards.spec.js" time="1.408">
+</testcase>
+<testcase name="Unauthenticated access › protected faculty route sends user to login" classname="auth-guards.spec.js" time="1.434">
+</testcase>
+</testsuite>
+<testsuite name="home.spec.js" timestamp="2026-04-26T12:08:56.930Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.389" errors="0">
+<testcase name="home page loads" classname="home.spec.js" time="1.389">
+</testcase>
+</testsuite>
+<testsuite name="routing-and-auth-pages.spec.js" timestamp="2026-04-26T12:08:56.930Z" hostname="chromium" tests="10" failures="0" skipped="0" time="20.514" errors="0">
+<testcase name="Auth pages and public navigation › forgot password page shows heading and email step" classname="routing-and-auth-pages.spec.js" time="2.942">
+</testcase>
+<testcase name="Auth pages and public navigation › reset password page shows new-password form with placeholder token" classname="routing-and-auth-pages.spec.js" time="2.208">
+</testcase>
+<testcase name="Auth pages and public navigation › login page links to register" classname="routing-and-auth-pages.spec.js" time="2.41">
+</testcase>
+<testcase name="Auth pages and public navigation › register page links back to login" classname="routing-and-auth-pages.spec.js" time="2.761">
+</testcase>
+<testcase name="Auth pages and public navigation › login page links to forgot password" classname="routing-and-auth-pages.spec.js" time="2.621">
+</testcase>
+<testcase name="Auth pages and public navigation › unmatched path redirects to login when not signed in" classname="routing-and-auth-pages.spec.js" time="1.487">
+</testcase>
+<testcase name="Protected routes (unauthenticated → login) › student area redirects to login" classname="routing-and-auth-pages.spec.js" time="1.279">
+</testcase>
+<testcase name="Protected routes (unauthenticated → login) › organizer area redirects to login" classname="routing-and-auth-pages.spec.js" time="1.225">
+</testcase>
+<testcase name="Protected routes (unauthenticated → login) › admin area redirects to login" classname="routing-and-auth-pages.spec.js" time="1.714">
+</testcase>
+<testcase name="OAuth callback › callback without token shows sign-in failed state" classname="routing-and-auth-pages.spec.js" time="1.867">
+</testcase>
+</testsuite>
+</testsuites>
